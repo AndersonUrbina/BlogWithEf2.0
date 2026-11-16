@@ -26,7 +26,7 @@ BlogWithEf2.0 is an ASP.NET Core MVC application for creating and viewing blog p
 - `Data/BlogDbContext.cs` defines the EF Core database context and `Posts` table.
 - `Controllers/PostsController.cs` handles the web UI (Index, Details, Create views).
 - `Controllers/PostsApiController.cs` handles the JSON API (`GET`/`POST /api/posts`).
-- `Views/Home.cshtml` fetches `/api/posts` client-side and displays the live post count.
+- `Views/Home/Index.cshtml` fetches `/api/posts` client-side and displays the live post count.
 
 ## How to Run
 
