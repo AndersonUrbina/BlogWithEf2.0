@@ -35,7 +35,7 @@ BlogWithEf2.0 is an ASP.NET Core MVC application for creating and viewing blog p
 3. Restore dependencies: `dotnet restore`
 4. Apply database migrations: `dotnet ef database update`
 5. Run the application: `dotnet run`
-6. Navigate to `/Posts` to view/create posts, or `/` to see the live post count.
+6. Navigate to `api/Posts` to view/create posts, or `/` to see the live post count.
 
 ## Screenshots
 ![Home page screenshot](Screenshots/pic-home-page.png)
